@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: skyblue;
+}
+
+h1,
+footer {
+  text-align: center;
+  margin-top: 70px;
+  font-family: "Dancing Script", cursive;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  margin-left: 13px;
+}
+button {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border-radius: 25px;
+  border: 10px solid lightblue;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+}
+
+.w {
+  background-image: url(images/tom1.png);
+}
+.a {
+  background-image: url(images/tom2.png);
+}
+.s {
+  background-image: url(images/tom3.png);
+}
+.d {
+  background-image: url(images/tom4.png);
+}
+
+.j {
+  background-image: url(images/crash.png);
+}
+.k {
+  background-image: url(images/kick.png);
+}
+.l {
+  background-image: url(images/snare.png);
+}
+
+.pressed {
+  box-shadow: opx 3px 4px 0 gray;
+  opacity: ;
+}
